@@ -1,0 +1,240 @@
+[
+    {
+        "fields": [
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "string",
+                    "category": "builtin"
+                },
+                "name": "name"
+            },
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "string",
+                    "category": "builtin"
+                },
+                "name": "operation"
+            }
+        ],
+        "name": "FileEvent"
+    },
+    {
+        "fields": [
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "string",
+                    "category": "builtin"
+                },
+                "name": "path"
+            },
+            {
+                "defaultValue": "false",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "boolean",
+                    "category": "builtin"
+                },
+                "name": "recursive"
+            }
+        ],
+        "name": "ListenerConfig"
+    },
+    {
+        "fields": [
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "string",
+                    "category": "builtin"
+                },
+                "name": "absPath"
+            },
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "int",
+                    "category": "builtin"
+                },
+                "name": "size"
+            },
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "Utc",
+                    "category": "libs",
+                    "orgName": "ballerina",
+                    "moduleName": "time",
+                    "version": "2.4.0"
+                },
+                "name": "modifiedTime"
+            },
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "boolean",
+                    "category": "builtin"
+                },
+                "name": "dir"
+            },
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "boolean",
+                    "category": "builtin"
+                },
+                "name": "readable"
+            },
+            {
+                "defaultValue": "",
+                "type": {
+                    "isAnonymousUnionType": false,
+                    "isInclusion": false,
+                    "isArrayType": false,
+                    "isNullable": false,
+                    "isTuple": false,
+                    "isIntersectionType": false,
+                    "isParenthesisedType": false,
+                    "isTypeDesc": false,
+                    "isRestParam": false,
+                    "isDeprecated": false,
+                    "isPublic": false,
+                    "generateUserDefinedTypeLink": true,
+                    "memberTypes": [],
+                    "arrayDimensions": 0,
+                    "name": "boolean",
+                    "category": "builtin"
+                },
+                "name": "writable"
+            }
+        ],
+        "name": "MetaData"
+    }
+]

@@ -1,0 +1,72 @@
+{
+    "ballerina": [
+        {
+            "orgName": "ballerina",
+            "module": "http",
+            "version": "2.11.3",
+            "listeners": [
+                {
+                    "name": "Listener",
+                    "parameters": [
+                        {
+                            "name": "port",
+                            "type": "int",
+                            "category": "builtin"
+                        }
+                    ],
+                    "records": null
+                }
+            ]
+        },
+        {
+            "orgName": "ballerina",
+            "module": "file",
+            "version": "1.9.0",
+            "listeners": [
+                {
+                    "name": "Listener",
+                    "parameters": [
+                        {
+                            "name": "listenerConfig",
+                            "type": "ListenerConfiguration",
+                            "category": "records"
+                        }
+                    ],
+                    "records": [
+                        {
+                            "name": "ListenerConfiguration",
+                            "fileds": [
+                                {
+                                    "name": "path",
+                                    "type": "string",
+                                    "category": "builtin"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "ballerinax": [
+        {
+            "orgName": "ballerina",
+            "module": "kafka",
+            "version": "4.1.0",
+            "listeners": [
+                {
+                    "name": "Listener",
+                    "parameters": [
+                        {
+                            "name": "bootstrapServers",
+                            "type": "string",
+                            "category": "builtin"
+                        }
+                    ],
+                    "records": null
+                }
+            ]
+        }
+    ],
+    "checksum": "af6986b411ccb1a0b5571699b79cc37eebcfc8f66897c9384aff2153b0df7c7f"
+}
