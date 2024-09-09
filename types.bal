@@ -1,5 +1,4 @@
 // Index Types
-
 type IRecordField record {|
     string name;
     string 'type;
@@ -37,7 +36,6 @@ type IPackage record {|
 type Index record {|
     IPackage[] ballerina;
     IPackage[] ballerinax;
-    string checksum = generateCheckSum();
 |};
 
 // GrpahQL Responses

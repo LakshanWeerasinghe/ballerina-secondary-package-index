@@ -16,7 +16,7 @@
             ],
             "organization": "ballerina",
             "name": "http",
-            "version": "2.11.3"
+            "version": "2.12.0"
         },
         {
             "listeners": [
@@ -34,7 +34,7 @@
             ],
             "organization": "ballerina",
             "name": "grpc",
-            "version": "1.11.1"
+            "version": "1.12.0"
         },
         {
             "listeners": [
@@ -52,7 +52,7 @@
             ],
             "organization": "ballerina",
             "name": "graphql",
-            "version": "1.13.1"
+            "version": "1.14.0"
         },
         {
             "listeners": [
@@ -70,7 +70,7 @@
             ],
             "organization": "ballerina",
             "name": "websocket",
-            "version": "2.11.0"
+            "version": "2.12.0"
         },
         {
             "listeners": [
@@ -88,7 +88,7 @@
             ],
             "organization": "ballerina",
             "name": "tcp",
-            "version": "1.10.0"
+            "version": "1.11.0"
         },
         {
             "listeners": [
@@ -106,7 +106,7 @@
             ],
             "organization": "ballerina",
             "name": "udp",
-            "version": "1.10.0"
+            "version": "1.11.0"
         },
         {
             "listeners": [
@@ -124,7 +124,7 @@
             ],
             "organization": "ballerina",
             "name": "websubhub",
-            "version": "1.11.0"
+            "version": "1.12.0"
         },
         {
             "listeners": [
@@ -195,7 +195,7 @@
             ],
             "organization": "ballerina",
             "name": "email",
-            "version": "2.9.1"
+            "version": "2.10.0"
         },
         {
             "listeners": [
@@ -218,7 +218,7 @@
             ],
             "organization": "ballerina",
             "name": "ftp",
-            "version": "2.10.1"
+            "version": "2.11.0"
         },
         {
             "listeners": [
@@ -236,7 +236,7 @@
             ],
             "organization": "ballerina",
             "name": "websub",
-            "version": "2.11.0"
+            "version": "2.12.0"
         },
         {
             "listeners": [
@@ -265,7 +265,7 @@
             ],
             "organization": "ballerina",
             "name": "file",
-            "version": "1.9.0"
+            "version": "1.10.0"
         },
         {
             "listeners": [
@@ -293,7 +293,7 @@
             ],
             "organization": "ballerina",
             "name": "mqtt",
-            "version": "1.1.1"
+            "version": "1.2.0"
         }
     ],
     "ballerinax": [
@@ -325,7 +325,7 @@
             ],
             "organization": "ballerinax",
             "name": "kafka",
-            "version": "4.1.0"
+            "version": "4.2.0"
         },
         {
             "listeners": [
@@ -348,7 +348,7 @@
             ],
             "organization": "ballerinax",
             "name": "rabbitmq",
-            "version": "3.0.1"
+            "version": "3.1.0"
         },
         {
             "listeners": [
@@ -371,7 +371,37 @@
             ],
             "organization": "ballerinax",
             "name": "nats",
-            "version": "3.0.0"
+            "version": "3.1.0"
+        },
+        {
+            "listeners": [
+                {
+                    "name": "Listener",
+                    "parameters": [
+                        {
+                            "name": "severConfig",
+                            "type": "ServerConfig",
+                            "category": "records"
+                        }
+                    ],
+                    "records": null
+                }
+            ],
+            "organization": "ballerinax",
+            "name": "sap.jco",
+            "version": "1.0.0"
+        },
+        {
+            "listeners": [
+                {
+                    "name": "Listener",
+                    "parameters": [],
+                    "records": null
+                }
+            ],
+            "organization": "ballerinax",
+            "name": "salesforce",
+            "version": "8.1.0"
         },
         {
             "listeners": [
@@ -390,45 +420,6 @@
             "organization": "ballerinax",
             "name": "health.fhirr4",
             "version": "1.3.2"
-        },
-        {
-            "listeners": [
-                {
-                    "name": "Listener",
-                    "parameters": [
-                        {
-                            "name": "configurations",
-                            "type": "ServerDataConfig",
-                            "category": "records"
-                        }
-                    ],
-                    "records": [
-                        {
-                            "name": "ServerDataConfig",
-                            "fields": [
-                                {
-                                    "name": "gwhost",
-                                    "type": "string",
-                                    "category": "builtin"
-                                },
-                                {
-                                    "name": "gwserv",
-                                    "type": "string",
-                                    "category": "builtin"
-                                },
-                                {
-                                    "name": "progid",
-                                    "type": "string",
-                                    "category": "builtin"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "organization": "ballerinax",
-            "name": "sap.jco",
-            "version": "0.3.4"
         },
         {
             "listeners": [
@@ -912,6 +903,5 @@
             "name": "trigger.twilio",
             "version": "0.9.0"
         }
-    ],
-    "checksum": "af6986b411ccb1a0b5571699b79cc37eebcfc8f66897c9384aff2153b0df7c7f"
+    ]
 }

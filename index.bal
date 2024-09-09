@@ -4,6 +4,7 @@ import ballerina/io;
 import ballerina/lang.runtime;
 
 configurable string centralEP = "https://api.central.ballerina.io/2.0/graphql";
+configurable string ballerinaVersion = "2201.10.0";
 
 final graphql:Client graphqlClient = check new (centralEP);
 
@@ -50,7 +51,7 @@ public function main() returns error? {
         ballerinax: bxPkgs
     };
 
-    check io:fileWriteJson("./output.json", index.toJson());
+    check io:fileWriteJson(string `LS-INDEX-${ballerinaVersion}.json`, index.toJson());
 }
 
 function getIPackage(IPackageMetaData packageMetaData) returns IPackage|error? {
@@ -64,14 +65,9 @@ function getIPackage(IPackageMetaData packageMetaData) returns IPackage|error? {
     }
 
     json js = check jsondata:parseString(listenersStr);
-    check io:fileWriteJson("./o.json", js.toJson());
-
-    // Listener[] listeners = check jsondata:parseString(response.data.apiDocs.docsData.modules[0].listeners);
     Listener[] listeners = check jsondata:parseAsType(js);
 
     json j = check jsondata:parseString(response.data.apiDocs.docsData.modules[0].records);
-    // check io:fileWriteJson("./rs.json", j.toJson());
-    // json j = check io:fileReadJson("./rs.json");
     Record[] records = check jsondata:parseAsType(j);
 
     IPackage iPackage = {
