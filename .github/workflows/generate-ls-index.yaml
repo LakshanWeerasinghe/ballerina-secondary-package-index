@@ -23,7 +23,7 @@ jobs:
         with:
           version: 2201.10.0
       - name: Generate LS Package Index
-        run: bal run -- -CcentralEp=${{ inputs.centralEp }} -CballerinaVersion=${{ inputs.version }}
+        run: bal run -- -CcentralEP=${{ inputs.centralEp }} -CballerinaVersion=${{ inputs.version }}
       - name: Upload LS Package Index
         uses: actions/upload-artifact@v4
         with:
