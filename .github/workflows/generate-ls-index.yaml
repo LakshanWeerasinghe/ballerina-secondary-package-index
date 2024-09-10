@@ -1,0 +1,30 @@
+name: (Manually) Generate LS Package Index 
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Target Ballerina Version'
+        required: true
+        type: string
+      centralEp:
+        description: 'Ballerina Central GraphQL Endpoint'
+        required: true
+        type: string
+        default: https://api.central.ballerina.io/2.0/graphql
+
+jobs:
+  generate-ls-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Ballerina
+        uses: ballerina-platform/setup-ballerina@v1
+        with:
+          version: 2201.10.0
+      - name: Generate LS Package Index
+        run: bal run -- -CcentralEp=${{ inputs.centralEp }} -CballerinaVersion=${{ inputs.version }}
+      - name: Upload LS Package Index
+        uses: actions/upload-artifact@v4
+        with:
+          path: ls-index-${{ inputs.version }}.json
