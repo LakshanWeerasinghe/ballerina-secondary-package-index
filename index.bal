@@ -51,7 +51,7 @@ public function main() returns error? {
         ballerinax: bxPkgs
     };
 
-    check io:fileWriteJson(string `LS-INDEX-${ballerinaVersion}.json`, index.toJson());
+    check io:fileWriteJson(string `ls-index-${ballerinaVersion}.json`, index.toJson());
 }
 
 function getIPackage(IPackageMetaData packageMetaData) returns IPackage|error? {
