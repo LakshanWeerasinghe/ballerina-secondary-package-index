@@ -348,18 +348,6 @@ dependencies = [
 ]
 
 [[package]]
-org = "ballerinai"
-name = "observe"
-version = "0.0.0"
-dependencies = [
-	{org = "ballerina", name = "jballerina.java"},
-	{org = "ballerina", name = "observe"}
-]
-modules = [
-	{org = "ballerinai", packageName = "observe", moduleName = "observe"}
-]
-
-[[package]]
 org = "lakshanweerasinghe"
 name = "ballerina_secondary_package_index"
 version = "0.1.0"
@@ -367,8 +355,7 @@ dependencies = [
 	{org = "ballerina", name = "data.jsondata"},
 	{org = "ballerina", name = "graphql"},
 	{org = "ballerina", name = "io"},
-	{org = "ballerina", name = "lang.runtime"},
-	{org = "ballerinai", name = "observe"}
+	{org = "ballerina", name = "lang.runtime"}
 ]
 modules = [
 	{org = "lakshanweerasinghe", packageName = "ballerina_secondary_package_index", moduleName = "ballerina_secondary_package_index"}

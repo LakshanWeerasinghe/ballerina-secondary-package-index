@@ -1,0 +1,16 @@
+name: Daily Generate LS Package Index
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  generate-ls-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ballerina-platform/setup-ballerina@v1
+        name: Install Ballerina
+        with:
+          version: 2201.10.0
+      - run: bal run
